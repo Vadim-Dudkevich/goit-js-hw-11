@@ -6,7 +6,9 @@ button.search-btn {
   font-family: 'DM Sans', sans-serif;
   color: #7da2a9;
   line-height: 1.5;
-  font-size: 16px;
+  font-size: 18px;
+
+  cursor: pointer;
 
   background-color: #f7f7f7;
   border: none;
@@ -16,6 +18,8 @@ button.search-btn {
   &.search-btn:focus {
     background-color: #646c79;
     color: #f7f7f7;
+
+    cursor: pointer;
   }
 }
 
@@ -27,9 +31,11 @@ button.load-more {
   width: 140px;
   height: 40px;
 
-  font-family: 'Krona One', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   line-height: 1.5;
-  font-size: 16px;
+  font-size: 18px;
+
+  cursor: pointer;
 
   background-color: #7da2a9;
   color: white;
@@ -44,6 +50,9 @@ button.load-more {
     background-color: #646c79;
     color: #f7f7f7;
     // border-color: #7da2a9;
+
+    cursor: pointer;
+
     border-width: 1px;
     border-radius: 50px;
   }
