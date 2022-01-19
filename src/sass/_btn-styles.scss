@@ -1,0 +1,54 @@
+button.search-btn {
+  margin-left: 20px;
+  width: 110px;
+  height: 70%;
+
+  font-family: 'DM Sans', sans-serif;
+  color: #7da2a9;
+  line-height: 1.5;
+  font-size: 16px;
+
+  background-color: #f7f7f7;
+  border: none;
+  border-radius: 50px;
+
+  &.search-btn:hover,
+  &.search-btn:focus {
+    background-color: #646c79;
+    color: #f7f7f7;
+  }
+}
+
+// * button.load-more
+
+button.load-more {
+  display: block;
+  margin: 20px auto;
+  width: 140px;
+  height: 40px;
+
+  font-family: 'Krona One', sans-serif;
+  line-height: 1.5;
+  font-size: 16px;
+
+  background-color: #7da2a9;
+  color: white;
+  border: none;
+  border-radius: 50px;
+
+  transform: translateX(-1000vw);
+  transition: transform 250ms ease-in-out;
+
+  &.load-more:hover,
+  &.load-more:focus {
+    background-color: #646c79;
+    color: #f7f7f7;
+    // border-color: #7da2a9;
+    border-width: 1px;
+    border-radius: 50px;
+  }
+
+  &.load-more.is-visible {
+    transform: translateX(0);
+  }
+}
